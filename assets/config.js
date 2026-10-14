@@ -3,7 +3,7 @@
 const STICKWELL = {
   store: '',   // ссылка на расширение в Chrome Web Store, например https://chromewebstore.google.com/detail/stickwell/<id>
   email: '',   // почта проекта, например hello@example.com
-  issues: 'https://github.com/matildamur1-afk/stickwell/issues'   // GitHub Issues
+  issues: 'https://github.com/stickwell-app/stickwell-app.github.io/issues'   // GitHub Issues
 };
 
 document.addEventListener('DOMContentLoaded', () => {
