@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stickwell — Privacy Policy</title>
+<meta name="description" content="Stickwell keeps your notes in your browser. No account, no servers, no analytics.">
+<link rel="icon" href="icon128.png">
+<style>
+  :root {
+    --bg: #fbf8ef; --fg: #23201a; --muted: #6f6852; --line: #ebe3cb;
+    --card: #ffffff; --accent: #7a5c00; --note: #fff1a8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b1a17; --fg: #ece7da; --muted: #a9a18b; --line: #36332b; --card: #24221e; --accent: #e3c25a; --note: #4a4120; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; color: var(--fg); text-decoration: none; }
+  .brand img { width: 32px; height: 32px; }
+  nav.lang a { color: var(--accent); text-decoration: none; font-size: 14px; margin-left: 12px; }
+  nav.lang a[aria-current] { color: var(--fg); font-weight: 600; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 34px 0 8px; }
+  p, ul { margin: 0 0 12px; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+  .tldr { background: var(--note); border-radius: 10px; padding: 16px 20px; margin: 0 0 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.08); }
+  .tldr strong { display: block; margin-bottom: 4px; }
+  code { font-size: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 5px; padding: 1px 5px; }
+  a { color: var(--accent); }
+  .todo { background: #ffd6d6; color: #8a1c1c; padding: 1px 6px; border-radius: 4px; font-weight: 600; }
+  section + section { border-top: 1px solid var(--line); margin-top: 56px; padding-top: 40px; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="index.html"><img src="icon128.png" alt="">Stickwell</a>
+    <nav class="lang"><a href="#en" aria-current="true">English</a><a href="#ru" lang="ru">Русский</a></nav>
+  </header>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section id="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective October 12, 2026 · applies to the Stickwell browser extension (in Russian: «На полях»)</p>
+
+    <div class="tldr">
+      <strong>The short version</strong>
+      Your notes stay in your browser. Stickwell has no account, no servers, no analytics and no ads.
+      Nothing you write and no page you visit is sent to us or to anyone else.
+    </div>
+
+    <h2>What Stickwell stores</h2>
+    <p>Everything below is saved only on your device, in your browser's storage for extensions. It is used for one thing: showing your notes again in the right place.</p>
+    <ul>
+      <li>The text of your notes and their formatting, color, size and whether they are collapsed.</li>
+      <li>The address (URL) and title of the page where you created a note, and the site's domain.</li>
+      <li>Where the note sits: a reference to the part of the page it is attached to, including up to 80 characters of that part's text, plus the note's coordinates.</li>
+      <li>When each note was created and last edited.</li>
+      <li>Your language choice, if you pick one in the extension's settings.</li>
+    </ul>
+    <p>Two features put data into notes or show notes more widely, and both work only when you use them:</p>
+    <ul>
+      <li><strong>Right-click → “Add a sticky note here”.</strong> If you have selected text on the page, that text is copied into the new note as a quote. Nothing is copied if no text is selected.</li>
+      <li><strong>Satellite notes.</strong> A Satellite note is shown on every website you open, so you can keep a note at hand everywhere. It is stored once, like any other note; Stickwell does not record which sites it was shown on.</li>
+    </ul>
+
+    <h2>What Stickwell does not do</h2>
+    <ul>
+      <li>It does not send any data over the internet. The extension makes no network requests.</li>
+      <li>It does not keep a history of the pages you visit. On a page where you have no notes, it only checks the page address against your saved notes and stores nothing.</li>
+      <li>It has no analytics, telemetry, cookies, ads or tracking.</li>
+      <li>It does not sell, share or transfer your data, and does not use it for any purpose other than showing your notes.</li>
+    </ul>
+
+    <h2>Why it can access every website</h2>
+    <p>When you install Stickwell, your browser warns that it can read and change data on all websites. The extension needs this to draw your notes on top of whatever page you open, and to find the paragraph or picture a note is attached to.</p>
+    <p>To show notes, Stickwell adds its own interface elements to the page, kept in a separate container so they do not mix with the site's code or styles. It does not edit the page's own text, links or forms, does not record what you type on the site (it only listens for the Esc key to close its own menu), and does not send page content anywhere.</p>
+
+    <h2>Backups</h2>
+    <p>If you click “Download backup”, your notes are saved as a file in the folder you choose. If you restore from a file, Stickwell reads only the file you select. We never see these files.</p>
+
+    <h2>Keeping and deleting your data</h2>
+    <p>Your notes are kept until you delete them. You can delete a note from its menu or from the “All notes” page. Removing the extension deletes all of its data from your browser, so download a backup first if you want to keep your notes.</p>
+
+    <h2>Children</h2>
+    <p>Stickwell does not collect personal information from anyone, including children under 13.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If a future version adds anything that sends data off your device, such as optional sync between devices, it will be off by default, and this policy will be updated before that version is released to explain exactly what is sent and why.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy: <span class="todo">contact email</span></p>
+  </section>
+
+  <!-- ===================== РУССКИЙ ===================== -->
+  <section id="ru" lang="ru">
+    <h1>Политика конфиденциальности</h1>
+    <p class="meta">Действует с 12 октября 2026 года · относится к расширению для браузера «На полях» (международное название — Stickwell)</p>
+
+    <div class="tldr">
+      <strong>Коротко</strong>
+      Ваши заметки хранятся только в вашем браузере. У «На полях» нет аккаунтов, серверов, аналитики и рекламы.
+      Ничего из того, что вы пишете, и ни одна страница, которую вы открываете, не передаются ни нам, ни кому-либо ещё.
+    </div>
+
+    <h2>Что хранит расширение</h2>
+    <p>Всё перечисленное сохраняется только на вашем устройстве, в хранилище браузера для расширений. Эти данные нужны для одного: снова показать стикер на своём месте.</p>
+    <ul>
+      <li>Текст стикеров и их оформление: форматирование, цвет, размер, свёрнут ли стикер.</li>
+      <li>Адрес и заголовок страницы, на которой создан стикер, и домен сайта.</li>
+      <li>Положение стикера: ссылка на элемент страницы, к которому он привязан, включая до 80 символов текста этого элемента, и координаты стикера.</li>
+      <li>Время создания и последнего изменения каждого стикера.</li>
+      <li>Выбранный язык, если вы выбрали его в настройках расширения.</li>
+    </ul>
+    <p>Две функции добавляют данные в стикеры или показывают стикеры шире, и обе срабатывают, только когда вы ими пользуетесь:</p>
+    <ul>
+      <li><strong>Правый клик → «Добавить стикер сюда».</strong> Если на странице выделен текст, он копируется в новый стикер цитатой. Если ничего не выделено, ничего не копируется.</li>
+      <li><strong>Стикеры-спутники.</strong> Спутник показывается на любом сайте, который вы открываете, — чтобы заметка всегда была под рукой. Он хранится один раз, как обычный стикер; расширение не записывает, на каких сайтах он показывался.</li>
+    </ul>
+
+    <h2>Чего расширение не делает</h2>
+    <ul>
+      <li>Не передаёт данные через интернет. Расширение не делает сетевых запросов.</li>
+      <li>Не ведёт историю посещённых страниц. На странице без стикеров оно только сверяет её адрес с сохранёнными стикерами и ничего не записывает.</li>
+      <li>Не использует аналитику, телеметрию, cookie, рекламу и отслеживание.</li>
+      <li>Не продаёт и не передаёт ваши данные и не использует их ни для чего, кроме показа ваших стикеров.</li>
+    </ul>
+
+    <h2>Зачем доступ ко всем сайтам</h2>
+    <p>При установке браузер предупреждает, что расширение может читать и изменять данные на всех сайтах. Это нужно, чтобы рисовать стикеры поверх любой открытой страницы и находить абзац или картинку, к которым стикер привязан.</p>
+    <p>Чтобы показать стикеры, расширение добавляет на страницу собственные элементы интерфейса в отдельном контейнере, который не смешивается с кодом и стилями сайта. Оно не редактирует текст, ссылки и формы самой страницы, не записывает то, что вы вводите на сайте (оно только отслеживает клавишу Esc, чтобы закрыть своё меню), и никуда не отправляет содержимое страниц.</p>
+
+    <h2>Резервные копии</h2>
+    <p>Когда вы нажимаете «Скачать резервную копию», стикеры сохраняются файлом в выбранную вами папку. При загрузке из файла расширение читает только тот файл, который вы выбрали. Мы эти файлы не видим.</p>
+
+    <h2>Хранение и удаление данных</h2>
+    <p>Стикеры хранятся, пока вы их не удалите. Удалить стикер можно из его меню или со страницы «Все стикеры». При удалении расширения браузер стирает все его данные, поэтому, если хотите сохранить стикеры, сначала скачайте резервную копию.</p>
+
+    <h2>Дети</h2>
+    <p>Расширение не собирает персональные данные ни у кого, в том числе у детей младше 13 лет.</p>
+
+    <h2>Изменения политики</h2>
+    <p>Если в будущей версии появится что-то, что передаёт данные с вашего устройства, например необязательная синхронизация между устройствами, эта функция будет выключена по умолчанию, а политика будет обновлена до выхода такой версии и объяснит, что именно передаётся и зачем.</p>
+
+    <h2>Контакты</h2>
+    <p>Вопросы о конфиденциальности: <span class="todo">адрес почты</span></p>
+  </section>
+
+  <footer><a href="index.html">Stickwell</a> · <a href="ru.html" lang="ru">«На полях»</a> · <a href="#en">English</a> · <a href="#ru" lang="ru">Русский</a></footer>
+</div>
+</body>
+</html>
