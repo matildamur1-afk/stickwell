@@ -2,7 +2,7 @@
 // Заполните после публикации — больше ничего на страницах менять не нужно.
 const STICKWELL = {
   store: '',   // ссылка на расширение в Chrome Web Store, например https://chromewebstore.google.com/detail/stickwell/<id>
-  email: '',   // почта проекта, например hello@example.com
+  email: 'stickwell.app@gmail.com',   // почта проекта
   issues: 'https://github.com/stickwell-app/stickwell-app.github.io/issues'   // GitHub Issues
 };
 
