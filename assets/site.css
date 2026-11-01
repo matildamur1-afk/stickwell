@@ -98,6 +98,16 @@ details p { margin: 0 0 16px; color: var(--muted); }
 /* контакты и подвал */
 .contact { text-align: left; }
 .contact p { color: var(--muted); margin: 0 0 22px; }
+.contacts { margin: 0; border-top: 1px solid var(--line); }
+.contacts > div { display: grid; grid-template-columns: 190px 1fr; gap: 4px 20px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.contacts dt { font-weight: 600; }
+.contacts dd { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; min-width: 0; }
+.contacts .addr { font-weight: 600; user-select: all; overflow-wrap: anywhere; }
+.contacts .sub { font-size: 15px; }
+.copy { font: inherit; font-size: 14px; font-weight: 600; color: var(--fg); background: var(--card); border: 1.5px solid var(--line); border-radius: 8px; padding: 4px 12px; cursor: pointer; }
+.copy:hover { border-color: var(--muted); }
+.copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 640px) { .contacts > div { grid-template-columns: 1fr; } }
 .foot { border-top: 1px solid var(--line); padding: 28px 0 40px; font-size: 14px; }
 .foot span { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .foot img { display: inline-block; }

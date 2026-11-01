@@ -17,7 +17,7 @@
 <body data-lang="en">
 <header class="top"><div class="wrap row">
   <a class="brand" href="index.html"><img src="assets/icon32.png" width="28" height="28" alt="">Stickwell</a>
-  <nav><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="privacy.html">Privacy</a><a class="lang" href="ru.html" hreflang="ru">Русский</a></nav>
+  <nav><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="privacy.html">Privacy</a><a href="#contact">Contacts</a><a class="lang" href="ru.html" hreflang="ru">Русский</a></nav>
 </div></header>
 
 <main>
@@ -67,13 +67,19 @@
 </div></section>
 
 <section id="contact" class="contact"><div class="wrap narrow">
-  <h2>Found a bug or have an idea?</h2>
-  <p>Tell us which page it happened on and what you expected to see — that’s usually enough to fix it.</p>
-  <div class="ctas">
-    <a class="btn primary" data-mail href="#" hidden>Write to us</a>
-    <a class="btn ghost" data-issues href="#" hidden>Open an issue on GitHub</a>
-    <span class="muted" data-nocontact>Contact details are coming soon.</span>
-  </div>
+  <h2>Contacts</h2>
+  <p>Found a bug or have an idea? Tell us which page it happened on and what you expected to see — that’s usually enough to fix it.</p>
+  <dl class="contacts">
+    <div data-row="mail" hidden><dt>Email</dt><dd>
+      <span class="addr" data-mail-text></span>
+      <button type="button" class="copy" data-copy data-copied="Copied">Copy</button>
+      <a class="sub" data-mail href="#">Open in mail app</a></dd></div>
+    <div data-row="issues" hidden><dt>Bug reports</dt><dd>
+      <a data-issues href="#">GitHub Issues</a> <span class="muted">— needs a GitHub account</span></dd></div>
+    <div data-row="store" hidden><dt>Reviews</dt><dd><a data-store-link href="#">Stickwell in the Chrome Web Store</a></dd></div>
+    <div><dt>Privacy</dt><dd><a href="privacy.html">Privacy policy</a></dd></div>
+  </dl>
+  <p class="muted" data-nocontact>Contact details are coming soon.</p>
 </div></section>
 </main>
 
